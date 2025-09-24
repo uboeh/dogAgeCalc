@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .container {
+        background-color: darkslategrey;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 500;
+    }
+
+    
+    .knöpchen {
+        background-color: orangered;
+        border-radius: 30%;
+        height: 35px;
+        width: 80px;
+        box-shadow: 0.5em 0.5em 0.8em;
+        cursor: pointer;
+        padding: auto;
+        font-size: 14px;
+        font-weight: 900;
+    }
+</style>
+
+
+</head>
+
+
+<body>
+    <div class="container">
+        <h1>Hundealter in Menschenjahren</h1>
+        <h3>Wie alt ist dein Hund in Menschenjahren?</h3>
+        <p>Drück einfach auf den Knopf und gib das Alter deines Hundes ein, um es in Menschenjahren zu berechnen:</p>
+        <div class="dogAgeBox">
+            <button class="knöpchen" onclick="hundeAlter()">Berechne!</button>
+        </div>
+    </div>
+
+ <script src="dogScript.js"></script>
+</body>
+</html>
